@@ -1,7 +1,7 @@
 /*
- * hello-github.c
+ * hello-strings.h
  * 
- * Copyright 2016 Faisal Hassan <faisal.hassan@globaledgesoft.com>
+ * Copyright 2017 Faisal Hassan <faisal.hassan@globaledgesoft.com>
  * 
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -21,16 +21,9 @@
  * 
  */
 
-#include <stdio.h>
-#include "hello-strings.h"
+#ifndef _HELLO_STRINGS_H_
+#define _HELLO_STRINGS_H_
 
-int main(void)
-{
-	printf(" Hello github\n");
-	printf(" %s\n", hello_strings);
-#if (HELLO_GITHUB == 1)
-	printf(" Debug level 1\n");
-#endif
-	
-	return 0;
-}
+char hello_strings[] = "Hello github";
+
+#endif /* _HELLO_STRINGS_H_ */
