@@ -27,7 +27,7 @@
 int main(void)
 {
 	printf(" Hello github\n");
-	printf(" %s\n", hello_strings);
+	printf(" %s\n", hello_strings_01);
 #if (HELLO_GITHUB == 1)
 	printf(" Debug level 1\n");
 #endif

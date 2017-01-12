@@ -24,6 +24,7 @@
 #ifndef _HELLO_STRINGS_H_
 #define _HELLO_STRINGS_H_
 
-char hello_strings[] = "Hello github";
+char hello_strings_01[] = "Hello github_01";
+char hello_strings_02[] = "Hello github_02";
 
 #endif /* _HELLO_STRINGS_H_ */
