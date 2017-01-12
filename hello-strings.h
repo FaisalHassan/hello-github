@@ -27,5 +27,6 @@
 char hello_strings_01[] = "Hello github_01";
 char hello_strings_02[] = "Hello github_02";
 char hello_strings_03[] = "Hello github_03";
+char hello_strings_04[] = "Hello github_04";
 
 #endif /* _HELLO_STRINGS_H_ */
